@@ -14,12 +14,12 @@ namespace DbConnectionSimulation
             
         }
 
-        public override void OpenConnection()
+        public override void Open()
         {
             Console.WriteLine("Open SQL connection");
         }
 
-        public override void CloseConnection()
+        public override void Close()
         {
             Console.WriteLine("Close SQL connection");
         }

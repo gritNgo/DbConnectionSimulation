@@ -21,8 +21,8 @@ namespace DbConnectionSimulation
             ConnectionString = connectionString;            
         }
 
-        public abstract void OpenConnection();
+        public abstract void Open();
 
-        public abstract void CloseConnection();
+        public abstract void Close();
     }
 }

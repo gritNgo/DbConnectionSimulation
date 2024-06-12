@@ -15,12 +15,12 @@ namespace DbConnectionSimulation
             
         }
 
-        public override void OpenConnection()
+        public override void Open()
         {
             Console.WriteLine("Open Oracle connection");
         }
 
-        public override void CloseConnection()
+        public override void Close()
         {
             Console.WriteLine("Close Oracle connection");
         }

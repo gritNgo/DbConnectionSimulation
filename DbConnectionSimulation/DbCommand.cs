@@ -29,9 +29,9 @@ namespace DbConnectionSimulation
 
         public void Execute()
         {
-            _dbConnection.OpenConnection();
+            _dbConnection.Open();
             Console.WriteLine(Instruction);
-            _dbConnection.CloseConnection();
+            _dbConnection.Close();
         }
     }
 }
