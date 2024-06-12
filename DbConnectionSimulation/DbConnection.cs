@@ -23,6 +23,6 @@ namespace DbConnectionSimulation
 
         public abstract void OpenConnection();
 
-        public abstract void CloseConnection()
+        public abstract void CloseConnection();
     }
 }
