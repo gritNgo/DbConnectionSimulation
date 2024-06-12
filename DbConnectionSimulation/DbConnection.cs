@@ -8,7 +8,7 @@ namespace DbConnectionSimulation
 {
     internal abstract class DbConnection
     {
-        public string ConnectionString { get; set; }
+        public string ConnectionString { get; private set; }
         public TimeSpan TimeOut { get; set; }
 
         public DbConnection(string connectionString)

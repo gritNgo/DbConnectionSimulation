@@ -26,13 +26,12 @@ namespace DbConnectionSimulation
             Instruction = instruction;
         }
 
+
         public void Execute()
         {
-            Console.WriteLine("Open connection");
-            Console.WriteLine("Run connection");
-            Console.WriteLine("Close connection");
-
-
+            _dbConnection.OpenConnection();
+            Console.WriteLine(Instruction);
+            _dbConnection.CloseConnection();
         }
     }
 }
